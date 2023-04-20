@@ -1,0 +1,85 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: auto;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container li {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-style {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(62, 124, 230);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.name-style {
+    font-size: 22px;
+    border: solid 2px white;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.poke-img-style {
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.stats-style {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 240px;
+    margin: auto;
+}
+
+.card-icon-style {
+    margin-bottom: 7px;
+    width: 20px;
+    height: auto;
+}
+
+.div-hr-style {
+    margin: 8px;
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    height: 0px;
+}
+
+.div-style {
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-image: url("../imgs/Pokeball_white.png");
+    background-position: center;
+}

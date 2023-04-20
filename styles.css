@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #366fb1;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.home-style {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.img-style {
+  width: 300px;
+  height: auto;
+}
+
+.icon-style {
+  margin-top: 20px;
+  width: 20px;
+  height: auto;
+}
+
+.select-style {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(62, 124, 230);
+  background-color: white;
+  font-size: 18px;
+}
+
+.btn-style {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 5px;
+  /* color: white; */
+  /* background-color: rgb(62, 124, 230); */
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-size: 18px;
+}

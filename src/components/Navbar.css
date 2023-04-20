@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #366fb1;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: solid 1px white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(62, 124, 230);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.no-active {
+  color: white;
+}
