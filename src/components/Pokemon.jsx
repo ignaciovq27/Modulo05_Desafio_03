@@ -6,7 +6,7 @@ import "../components/Pokemon.css"
 export default function Pokemon() {
 
     const [pokemon, setPokemon] = useState({})
-    const ParamsPokemon = useParams()
+    const paramsPokemon = useParams()
     const getPokemonData = async (pokemonName) => {
         const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
         const res = await fetch(url)
@@ -15,7 +15,7 @@ export default function Pokemon() {
     }
 
     useEffect(() => {
-        getPokemonData(ParamsPokemon.pokemonName)
+        getPokemonData(paramsPokemon.pokemonName)
     }, [])
 
     return (
